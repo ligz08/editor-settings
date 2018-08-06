@@ -1,0 +1,7 @@
+[
+    { "keys": ["option+up"], "command": "swap_line_up" },
+    { "keys": ["option+down"], "command": "swap_line_down" },
+    { "keys": ["super+shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["super+shift+."], "command": "expand_selection", "args": {"to": "scope"} },
+    { "keys": ["super+option+down"], "command": "duplicate_line" },
+]
